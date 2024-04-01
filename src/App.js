@@ -1,18 +1,16 @@
 import './App.css';
-import { Barra } from './components/Barra';
+import { Inicio } from './components/Inicio';
 import { Usuario, } from './components/Usuario';
+
+
+
 function App() {
 
 
   return (
     <div className='App'>
-      <Barra/>
+      <Inicio/>
       <hr></hr>
-      <Usuario />
-      <hr></hr>      
-      <Usuario />
-      <hr></hr>
-      <Usuario />
     </div>
   );
 }
