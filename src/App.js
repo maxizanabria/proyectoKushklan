@@ -1,11 +1,12 @@
 import './App.css';
-import { Usuario } from './components/Usuario';
+import { Barra } from './components/Barra';
+import { Usuario, } from './components/Usuario';
 function App() {
 
 
   return (
     <div className='App'>
-      <h1> . Kushklan .</h1>
+      <Barra/>
       <hr></hr>
       <Usuario />
       <hr></hr>      
